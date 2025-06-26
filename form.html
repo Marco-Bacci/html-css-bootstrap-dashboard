@@ -49,11 +49,13 @@
   </header>
   <main>
     <div class="container">
+      <!-----------------main-row------------->
       <div class="row mt-4">
-        <div class="col-12">
+        <div class="col-12"> <!-----------------main-col------------->
           <h2>Nuovo Libro</h2>
           <form action="">
-            <div class="row">
+            <div class="row"> <!-----------------row with-content------------->
+              <!-----------------author------------->
               <div class="col-6 mt-3">
                 <label class="form-label">Nome Autore</label>
                 <input class="form-control" type="text" name="author" id="text" required
@@ -64,11 +66,13 @@
                 <input class="form-control" type="text" name="author" id="text" required
                   placeholder="Inserisci il cognome dell'autore">
               </div>
+              <!-----------------book-title------------->
               <div class="col-12 mt-3">
                 <label class="form-label">Titolo</label>
                 <input class="form-control" type="text" name="author" id="text" required
                   placeholder="Inserisci il titolo del libro">
               </div>
+              <!-----------------col-md-4------------->
               <div class="col-12 col-md-4 mt-3">
                 <label class="form-label">Genere</label>
                 <select class="form-select" id="">
@@ -89,7 +93,13 @@
                 <input class="form-control" type="text" placeholder="Inserisci il codice ISBN#">
               </div>
               <hr class="my-5">
-
+              <!-----------------note------------->
+              <div class="col-12">
+                <label class="form-label">Note</label>
+                <textarea class="form-control" id=""></textarea>
+              </div>
+            </div>
+            <!-----------------checkbox------------->
           </form>
         </div>
       </div>
